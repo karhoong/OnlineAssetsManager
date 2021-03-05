@@ -1,0 +1,3 @@
+evalDeferred("python(\"import userSetup as us\")");
+evalDeferred("python(\"reload(us)\")");
+evalDeferred("python(\"setup = us.base_set_up()\")");
